@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ashutosh Singh B.Tech Student</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet"/>
+  <style>
+    body { font-family: 'Roboto', sans-serif; }
+    .creative-font { font-family: 'Playfair Display', serif; }
+    /* Custom animation for card entrance */
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(40px);}
+      to { opacity: 1; transform: translateY(0);}
+    }
+    .animate-fadeInUp {
+      animation: fadeInUp 1s cubic-bezier(0.4, 0, 0.2, 1) both;
+    }
+  </style>
+</head>
+<body class="bg-gray-900 text-white min-h-screen">
+
+  <!-- Navigation Bar -->
+  <nav class="bg-gray-800 p-4 shadow-lg">
+    <div class="container mx-auto flex justify-between items-center">
+      <div class="text-2xl creative-font font-bold text-green-400 tracking-wide">
+        PERSONAL PROFILE
+      </div>
+      <ul class="flex space-x-6">
+        <li>
+          <a class="transition-all duration-300 text-white hover:text-green-400 hover:scale-110 font-semibold" href="index.html">
+            <i class="fas fa-home mr-1"></i> HOME
+          </a>
+        </li>
+        <li>
+          <a class="transition-all duration-300 text-white hover:text-green-400 hover:scale-110 font-semibold" href="about.html">
+            <i class="fas fa-user mr-1"></i> ABOUT ME
+          </a>
+        </li>
+        <li>
+          <a class="transition-all duration-300 text-white hover:text-green-400 hover:scale-110 font-semibold" href="my_project.html">
+            <i class="fas fa-code mr-1"></i> MY PROJECTS
+          </a>
+        </li>
+        <li>
+          <a class="transition-all duration-300 text-white hover:text-green-400 hover:scale-110 font-semibold" href="contact.html">
+            <i class="fas fa-envelope mr-1"></i> CONTACT
+          </a>
+        </li>
+        <li>
+          <a class="transition-all duration-300 text-white hover:text-green-400 hover:scale-110 font-semibold" href="resume.html">
+            <i class="fas fa-file-alt mr-1"></i> RESUME
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container mx-auto p-6">
+   <h1 class="text-3xl font-bold mb-4">My Projects</h1>
+   <p class="mb-4">Here are some of the projects I've worked on:</p>
+   <ul class="list-disc list-inside mb-6">
+     <li>
+       <a class="text-green-500 hover:underline" href="https://github.com/Ashutosh464/Attendance-system">Attendance System</a> - A web application for managing attendance records, featuring a login page and user interface for tracking attendance.
+     </li>
+     <li>
+       <a class="text-green-500 hover:underline" href="https://github.com/Ashutosh464/pyBot">pyBot</a> - A bot that has knowledge about the Python language, designed to answer queries related to Python programming.
+     </li>
+   </ul>
+   <p>For more projects, visit my <a class="text-green-500 hover:underline" href="https://github.com/Ashutosh464">GitHub profile</a>.</p>
+  </div>
+ </body>
+</html>
+>
